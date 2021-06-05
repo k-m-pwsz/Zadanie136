@@ -38,10 +38,21 @@ int main() {
 }
 
 void prostopadloscian() {
-    /* TODO - osoba2 */
+    float a;
+    float b;
+    float c;
+    float pole_prostopadloscianu;
+    printf ("Podaj dlugosc boku a\n");
+    scanf ("%f", &a);
+    printf ("Podaj dlugosc boku b\n");
+    scanf ("%f", &b);
+    printf("Podaj dlugosc boku c\n");
+    scanf("%f", &c);
 
+    pole_prostopadloscianu = ((2*a*b)+(2*a*c)+(2*b*c));
 
-    /* TODO - w³aœciwe obliczanie pola zrealizowaæ poprzez dedykowan¹ funkcjê */
+    printf("Pole prostopadloscianu wynosi:%f\n", pole_prostopadloscianu);
+
 
 }
 
